@@ -1,0 +1,10 @@
+[ 8789.085500]  [<ffffffff8101f94c>] ? fpu__activate_curr+0x3c/0x80
+[ 8789.085502]  [<ffffffff810862c5>] ? signal_setup_done+0x65/0xa0
+[ 8789.085504]  [<ffffffff81020a62>] ? __fpu__restore_sig+0x72/0x490
+[ 8789.085507]  [<ffffffff811fdfbd>] do_vfs_ioctl+0x2cd/0x4b0
+[ 8789.085510]  [<ffffffff810831cf>] ? recalc_sigpending+0x1f/0x60
+[ 8789.085512]  [<ffffffff8102108d>] ? fpu__restore_sig+0x4d/0x60
+[ 8789.085515]  [<ffffffff811fe219>] SyS_ioctl+0x79/0x90
+[ 8789.085517]  [<ffffffff81014fb6>] ? sys_rt_sigreturn+0xa6/0xc0
+[ 8789.085520]  [<ffffffff817bc3b2>] entry_SYSCALL_64_fastpath+0x16/0x75
+[ 8789.085522] ---[ end trace 26d58cec9c11c99a ]---
