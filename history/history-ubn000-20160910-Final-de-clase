@@ -1,0 +1,312 @@
+    1  sudo su -
+    2  ls
+    3  ls .mozilla/
+    4  ls -la 
+    5  cd .ssh/
+    6  ls
+    7  rm ubn00.pem 
+    8  sudo rm ubn00.pem
+    9  sudo rm id_rsa.pub 
+   10  sudo rm id_rsa
+   11  sudo rm test1.pem 
+   12  ls
+   13  rm known_hosts 
+   14  ls
+   15  cd .
+   16  ls
+   17  cd 
+   18  ls
+   19  su - uk
+   20  sudo su -
+   21  vim .bash_history 
+   22  exit 
+   23  ls -la
+   24  cd .local/
+   25  ls
+   26  ls share/
+   27  cd ..
+   28  ls
+   29  find . | grep goo
+   30  cd .config/
+   31  ls
+   32  sudo rm -r google-chrome/
+   33  ls
+   34  mv LXS2_evargas/ Documents/
+   35  ls
+   36  cd Documents/
+   37  ls
+   38  cd LXS2_evargas/
+   39  ls
+   40  gitk
+   41  sudo apt-get install unetbootin
+   42  sudo unetbootin 
+   43  history  | less 
+   44  cd /tmp/
+   45  ls
+   46  git clone https://github.com/emvarg/LXS2_emmanuel.git repo-emma
+   47  ls
+   48  cd repo-emma/
+   49  ls
+   50  tre
+   51  tree
+   52  git remote -v
+   53  git remote add otrorepo http://github.com/marlonrc/ls2_marlon.git
+   54  git remote -v
+   55  git push otrorepo master
+   56  git remote rm origin
+   57  git remote -v
+   58  #http://mirrors.ucr.ac.cr/ubuntu-cd/trusty/
+   59  @#cursosti14
+   60  ls
+   61  echo HOLA
+   62  history 
+   63  ls .bash_history 
+   64  tail .bash_history
+   65  history > hitory-$HOSTNAME-`date +%Y%m%d`
+   66  ls 
+   67  history 
+   68  tail hitory-ubn000-20160910 
+   69  pwd
+   70  ls -la
+   71  ls -la | grep git
+   72  cat .gitconfig 
+   73  vimtutor 
+   74  vim .gitconfig 
+   75  sudo apt-get update
+   76  ssh 10.124.18.150
+   77  ls ..
+   78  sudo passwd user1
+   79  ip -4 addr 
+   80  ifconfig 
+   81  ip -4 addr 
+   82  ip -6 addr 
+   83  ls\
+   84  mkdir LXS2_emmanuel
+   85  cd LXS2_emmanuel
+   86  ls
+   87  pwd
+   88  mkdir history
+   89  vim .gitignore
+   90  ls
+   91  tree
+   92  sudo passwd user2
+   93  ip -4 addr 
+   94  ls
+   95  tree
+   96  tree ..
+   97  ls
+   98  vim .gitignore
+   99  tree
+  100  ls -a
+  101  ls
+  102  mkdir src
+  103  mkdir misc
+  104  tree
+  105  touch history/file
+  106  touch misc/file 
+  107  touch src/file
+  108  tree
+  109  git init 
+  110  ls -la
+  111  tree .git 
+  112  history
+  113  cat ../.gitconfig 
+  114  sudo su -
+  115  #git config --global user.name "Emmanuel V"
+  116  #git config --global user.email johndoe@example.com
+  117  pwd
+  118  cat ../.gitconfig 
+  119  pwd
+  120  cd 
+  121  pwd
+  122  cd -
+  123  cd /etc/apache2/sites-available/
+  124  pwd
+  125  cd -
+  126  pwd
+  127  ls ..
+  128  ls ../..
+  129  ls /home/
+  130  cat ../.gitconfig 
+  131  cd .
+  132  cd 
+  133  ls
+  134  su - user2
+  135  su  user2
+  136  ls
+  137  cd Lx
+  138  cd LXS2_emmanuel/
+  139  l;s
+  140  ls
+  141  tree
+  142  ls -la 
+  143  git status 
+  144  git add .gitignore 
+  145  git status 
+  146  touch misc/file2
+  147  tree
+  148  git status 
+  149  git add misc/
+  150  git status 
+  151  git add history/
+  152  git add src
+  153  tree
+  154  git status 
+  155  git commit -m "Inicio del arbol de desarrollo"
+  156  ls -la
+  157  ls -l src/
+  158  ls
+  159  git log 
+  160  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  161  tree
+  162  date +%Y%m%d
+  163  date
+  164  man date 
+  165  tree
+  166  git status 
+  167  git add history/
+  168  git status 
+  169  git commit -m "history inicial de clase 1" 
+  170  git log
+  171  wc history/history-ubn000-20160910 
+  172  cd 
+  173  pwd
+  174  git log 
+  175  cd LXS2_emmanuel/
+  176  ls -a 
+  177  cd history/
+  178  ls -a 
+  179  git log 
+  180  gitk
+  181  sudo apt-get install tree
+  182  cd ..
+  183  ls
+  184  git remote add origin https://github.com/emvarg/LXS2_emmanuel.git
+  185  git remote -v
+  186  git remote rm origiin
+  187  git remote rm origin
+  188  git remote -v
+  189  git remote add origin https://github.com/emvarg/LXS2_emmanuel.git
+  190  git remote -v
+  191  git push origin master
+  192  ls
+  193  dmesg | less 
+  194  git remote -v
+  195  history
+  196  dmesg | less
+  197  ls
+  198  dmesg
+  199  dmesg | wc
+  200  dmesg | head | wc
+  201  dmesg | tail | wc
+  202  dmesg | tail 
+  203  dmesg | tail > misc/file
+  204  cat misc/file
+  205  dmesg | head > misc/file2
+  206  git status 
+  207  git add misc/file
+  208  git statu s
+  209  git status
+  210  git commit -m "agrego la cabeza de dmesg a file2"
+  211  git log 
+  212  git push origin master 
+  213  git status 
+  214  echo " " > misc/file2
+  215  cat /etc/network/interfaces
+  216  cat /etc/network/interfaces >> misc/file2 
+  217  cat misc/file2
+  218  dmesg > misc/file2 
+  219  dmesg | head  > misc/file2 
+  220  cat misc/file2
+  221  echo " " >> misc/file2
+  222  cat misc/file2
+  223  cat /etc/network/interfaces >> misc/file2 
+  224  cat misc/file2
+  225  history | tail 
+  226  git status 
+  227  cat misc/file2 
+  228  git add misc/file2 
+  229  git status 
+  230  cp ../.bashrc .
+  231  ls
+  232  ls -a 
+  233  git status 
+  234  mv .bashrc misc/bashrc
+  235  git status 
+  236  git add misc/bashrc 
+  237  git status 
+  238  git commit -m "modifico file2 y agrego bashrc"
+  239  git push origin master 
+  240  git log
+  241  lsd
+  242  ls
+  243  cd misc/
+  244  ls
+  245  vim bashrc 
+  246  vim /home/sysadmin/.bashrc 
+  247  vim bashrc 
+  248  git status 
+  249  git diff
+  250  git add bashrc 
+  251  git status 
+  252  git commit -m "destrozos en bashrc"
+  253  history 
+  254  git push origin master 
+  255  ls
+  256  echo 
+  257  echo hola
+  258  echo hola como estan
+  259  echo $HOSTNAME
+  260  VAR1=casa
+  261  echo $VAR1
+  262  VAR1=casa
+  263  echo $VAR1
+  264  ls
+  265  cd /tmp/
+  266  ls
+  267  mkdir $VAR1
+  268  ls
+  269  cd casa/
+  270  ls
+  271  touch $VAR1
+  272  ls
+  273  ls -l 
+  274  touch esto_en-$VAR1
+  275  ls -l
+  276  cd /usr/share/doc
+  277  ls
+  278  cd vim-nox
+  279  ls
+  280  pwd
+  281  cd /usr/lib/
+  282  ls
+  283  cd totem/
+  284  ls
+  285  cd totem/
+  286  ls
+  287  pwd
+  288  cd 
+  289  VAR2=/usr/lib/totem/totem
+  290  cat $VAR2
+  291  echo $VAR2
+  292  cd $VAR2
+  293  export
+  294  export | grep HOST
+  295  env  | grep HOST
+  296  env  | g
+  297  declare | grep HOST
+  298  declare 
+  299  declare | grep HOST
+  300  declare | grep UID
+  301  id
+  302  echo $PWD
+  303  env
+  304  cd 
+  305  vim .bashrc 
+  306  echo $VAR1
+  307  source .bashrc 
+  308  echo $VAR1
+  309  ls
+  310  cd LXS2_emmanuel/
+  311  ls
+  312  history > history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
