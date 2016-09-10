@@ -1,0 +1,136 @@
+    1  sudo su -
+    2  ls
+    3  ls .mozilla/
+    4  ls -la 
+    5  cd .ssh/
+    6  ls
+    7  rm ubn00.pem 
+    8  sudo rm ubn00.pem
+    9  sudo rm id_rsa.pub 
+   10  sudo rm id_rsa
+   11  sudo rm test1.pem 
+   12  ls
+   13  rm known_hosts 
+   14  ls
+   15  cd .
+   16  ls
+   17  cd 
+   18  ls
+   19  su - uk
+   20  sudo su -
+   21  vim .bash_history 
+   22  exit 
+   23  ls -la
+   24  cd .local/
+   25  ls
+   26  ls share/
+   27  cd ..
+   28  ls
+   29  find . | grep goo
+   30  cd .config/
+   31  ls
+   32  sudo rm -r google-chrome/
+   33  ls
+   34  #http://mirrors.ucr.ac.cr/ubuntu-cd/trusty/
+   35  @#cursosti14
+   36  ls
+   37  echo HOLA
+   38  history 
+   39  ls .bash_history 
+   40  tail .bash_history
+   41  history > hitory-$HOSTNAME-`date +%Y%m%d`
+   42  ls 
+   43  history 
+   44  tail hitory-ubn000-20160910 
+   45  pwd
+   46  ls -la
+   47  ls -la | grep git
+   48  cat .gitconfig 
+   49  vimtutor 
+   50  vim .gitconfig 
+   51  sudo apt-get update
+   52  ssh 10.124.18.150
+   53  ls ..
+   54  sudo passwd user1
+   55  ip -4 addr 
+   56  ifconfig 
+   57  ip -4 addr 
+   58  ip -6 addr 
+   59  ls\
+   60  mkdir LXS2_emmanuel
+   61  cd LXS2_emmanuel
+   62  ls
+   63  pwd
+   64  mkdir history
+   65  vim .gitignore
+   66  ls
+   67  tree
+   68  sudo passwd user2
+   69  ip -4 addr 
+   70  ls
+   71  tree
+   72  tree ..
+   73  ls
+   74  vim .gitignore
+   75  tree
+   76  ls -a
+   77  ls
+   78  mkdir src
+   79  mkdir misc
+   80  tree
+   81  touch history/file
+   82  touch misc/file 
+   83  touch src/file
+   84  tree
+   85  git init 
+   86  ls -la
+   87  tree .git 
+   88  history
+   89  cat ../.gitconfig 
+   90  sudo su -
+   91  #git config --global user.name "Emmanuel V"
+   92  #git config --global user.email johndoe@example.com
+   93  pwd
+   94  cat ../.gitconfig 
+   95  pwd
+   96  cd 
+   97  pwd
+   98  cd -
+   99  cd /etc/apache2/sites-available/
+  100  pwd
+  101  cd -
+  102  pwd
+  103  ls ..
+  104  ls ../..
+  105  ls /home/
+  106  cat ../.gitconfig 
+  107  cd .
+  108  cd 
+  109  ls
+  110  su - user2
+  111  su  user2
+  112  ls
+  113  cd Lx
+  114  cd LXS2_emmanuel/
+  115  l;s
+  116  ls
+  117  tree
+  118  ls -la 
+  119  git status 
+  120  git add .gitignore 
+  121  git status 
+  122  touch misc/file2
+  123  tree
+  124  git status 
+  125  git add misc/
+  126  git status 
+  127  git add history/
+  128  git add src
+  129  tree
+  130  git status 
+  131  git commit -m "Inicio del arbol de desarrollo"
+  132  ls -la
+  133  ls -l src/
+  134  ls
+  135  git log 
+  136  history > history/history-$HOSTNAME-`date +%Y%m%d`
