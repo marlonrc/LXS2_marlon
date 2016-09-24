@@ -1,0 +1,147 @@
+    1  df 'lh 
+    2  df -lh 
+    3  sudo shutdown -h now 
+    4  ifconfig
+    5  sudo ifconfig
+    6  sudo 
+    7  sudo shutdown -now
+    8  sudo shutdown --n
+    9  sudo shutdown --now
+   10  sudo adduser user1
+   11  id user1
+   12  sudo usermod -a -G sudo sysadmin
+   13  sudo usermod -a -G sudo user1
+   14  id user1
+   15  sudo apt-get install git
+   16  sudo apt-get install openssh-server
+   17  pwd
+   18  git clone https://github.com/marlonrc/LXS2_marlon.git
+   19  cd LXS2_marlon
+   20  git remote -v
+   21  git remote add marlon https://github.com/marlonrc/LXS2_marlon.git
+   22  git remote -v
+   23  git push marlon master
+   24  git push marlon
+   25  git remote -r origin
+   26  git remote --r origin
+   27  git remote remove origin
+   28  ls
+   29  git remote -v
+   30  clear
+   31  cd ..
+   32  ls
+   33  touch Music
+   34  ls
+   35  cd Music
+   36  cat Music
+   37  ls Music/ algo > otro 2> error
+   38  cat otro
+   39  cat error
+   40  mkdir Music
+   41  remove Music
+   42  -bash
+   43  clear
+   44  mkdir Books
+   45  ls
+   46  clear
+   47  ls Books/ Music > otro 2> error
+   48  cat otro
+   49  cat error
+   50  erase Music
+   51  clear
+   52  ls Books/ otro > otro 2> error
+   53  ls Books/ adios > otro 2> error
+   54  cat otro
+   55  cat error
+   56  ls Books/ adios >> otro 2>> error
+   57* 
+   58  cat error
+   59* 
+   60  cat otro-error
+   61  clean
+   62  clear
+   63  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   64  ls
+   65  remove Music
+   66  cd LXS2_emmanuel
+   67  git pull origin master
+   68  ls
+   69  cd misc
+   70  ls
+   71  cp dhcpd.conf /LXS2_marlon/misc/
+   72  cd ..
+   73  ls
+   74  LXS2_marlon
+   75  git remote remove LXS2_marlon
+   76  cd LXS2_marlon
+   77  ls
+   78  cd misc
+   79  ls
+   80  cp ~/LXS2_emmanuel/misc/dhcpd.conf 
+   81  cd ~/LXS2_emmanuel/misc/
+   82  cp dhcpd.conf ~/LXS2_marlon/misc/
+   83  cd ~/LXS2_marlon/misc/
+   84  ls
+   85  cd ..
+   86  git log
+   87  git status
+   88  git add misc/dhcpd.conf 
+   89  git status
+   90  cd misc
+   91  mkdir clase3
+   92  ls
+   93  cd clase3
+   94  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F" " '{print $2}' | sort > clase-verde
+   95  cd ..
+   96  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F" " '{print $2}' | sort > clase3/red-verde
+   97  cd clase3
+   98  ls
+   99  rm clase-verde 
+  100  rm red-verde 
+  101  ls
+  102  cd ..
+  103  cat dhcpd.conf | grep -v "#" | grep "fixed"
+  104  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk -F" " '{print $2}' | sort > clase3/red-verde
+  105  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | grep "0." | awk -F" " '{print $2}' | sort > clase3/red-roja
+  106  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.2." | awk -F" " '{print $2}' | sort > clase3/red-azul
+  107  cd clase3
+  108* 
+  109  red-azul
+  110  cat red-verde
+  111  cat red-roja
+  112  cat red-azul
+  113  rm red-roja
+  114  ls
+  115  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.0." | awk -F" " '{print $2}' | sort > clase3/red-roja
+  116  cd ..
+  117  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.0." | awk -F" " '{print $2}' | sort > clase3/red-roja
+  118  cd clase 3
+  119  cd clase3
+  120  ls
+  121  cat red-azul
+  122  cat red-roja
+  123  cat red-verde
+  124  git status
+  125  cd ..
+  126  git status
+  127  git add clase3/
+  128  git status
+  129  cd clase3
+  130  git commit -m "Se suben los archivos con las ip's completas de las 3 redes"
+  131  git config --global user.name "Marlon Rojas C"
+  132  git config --global user.email "marocu.11902@gmail.com"
+  133  git commit --amend --reset-author
+  134  git push origin master
+  135  cd .. ..
+  136  cd ....
+  137  cd ..
+  138  ls
+  139  cd misc
+  140  ls
+  141  cd clase3
+  142  ls
+  143  cd ....
+  144  cd .. ..
+  145  cd ..
+  146  git status
+  147  history > history/history-$HOSTNAME-`date +%Y%m%d`
