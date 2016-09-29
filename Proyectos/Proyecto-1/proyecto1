@@ -1,0 +1,66 @@
+  --- Physical volume ---
+  PV Name               /dev/sda2
+  VG Name               centos
+  PV Size               4.01 GiB / not usable 4.00 MiB
+  Allocatable           yes 
+  PE Size               4.00 MiB
+  Total PE              1025
+  Free PE               1
+  Allocated PE          1024
+  PV UUID               u3MDvR-2Akd-omyQ-UTfM-IQvW-Ecq2-vNXvyG
+   
+  --- Logical volume ---
+  LV Path                /dev/centos/root
+  LV Name                root
+  VG Name                centos
+  LV UUID                1Cte0X-Ozzc-E67e-qvmp-rpwY-slQj-Ok9M5W
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2016-09-29 13:24:41 -0600
+  LV Status              available
+  # open                 1
+  LV Size                2.00 GiB
+  Current LE             512
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:0
+   
+  --- Logical volume ---
+  LV Path                /dev/centos/swap
+  LV Name                swap
+  VG Name                centos
+  LV UUID                YGdIyB-SwhU-bu2Y-BMro-urqw-YFhf-yD6EuX
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2016-09-29 13:24:42 -0600
+  LV Status              available
+  # open                 2
+  LV Size                2.00 GiB
+  Current LE             512
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:1
+   
+  --- Volume group ---
+  VG Name               centos
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  3
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                2
+  Open LV               2
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               4.00 GiB
+  PE Size               4.00 MiB
+  Total PE              1025
+  Alloc PE / Size       1024 / 4.00 GiB
+  Free  PE / Size       1 / 4.00 MiB
+  VG UUID               7bakqV-uLr1-lCPF-Kmcr-vm6N-70vP-ltTkde
+   
