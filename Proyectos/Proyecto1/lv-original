@@ -1,14 +1,3 @@
-  --- Physical volume ---
-  PV Name               /dev/sda2
-  VG Name               centos
-  PV Size               9.50 GiB / not usable 3.00 MiB
-  Allocatable           yes (but full)
-  PE Size               4.00 MiB
-  Total PE              2431
-  Free PE               0
-  Allocated PE          2431
-  PV UUID               6f9dke-zmuF-CBCs-uBBa-zn6J-M4s6-dYVCfP
-   
   --- Logical volume ---
   LV Path                /dev/centos/swap
   LV Name                swap
@@ -59,25 +48,4 @@
   Read ahead sectors     auto
   - currently set to     8192
   Block device           253:2
-   
-  --- Volume group ---
-  VG Name               centos
-  System ID             
-  Format                lvm2
-  Metadata Areas        1
-  Metadata Sequence No  4
-  VG Access             read/write
-  VG Status             resizable
-  MAX LV                0
-  Cur LV                3
-  Open LV               3
-  Max PV                0
-  Cur PV                1
-  Act PV                1
-  VG Size               9.50 GiB
-  PE Size               4.00 MiB
-  Total PE              2431
-  Alloc PE / Size       2431 / 9.50 GiB
-  Free  PE / Size       0 / 0   
-  VG UUID               cdUz4L-JT3i-K703-ZkRh-L3zL-PPQW-1XOqYW
    
