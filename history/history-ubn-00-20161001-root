@@ -1,0 +1,22 @@
+    1  cd /var/www/
+    2  ls
+    3  cd html/
+    4  ls
+    5  ln -s /home/sysadmin/Documents/deb-00.ova deb-00.ova
+    6  ls -l
+    7  ip -4 addr 
+    8  mv index.html 1.html
+    9  ls
+   10  ls -l
+   11  sudo chown www-data:www-data deb-00.ova 
+   12  ls -ol
+   13  ls -l
+   14  exit 
+   15  cd /dev/
+   16  ls
+   17  cd input/
+   18  ls
+   19  cat mouse0 
+   20  ls ..
+   21  ls .
+   22  history > /home/sysadmin/LXS2_emmanuel/history/history-$HOSTNAME-`date +%Y%m%d`-root

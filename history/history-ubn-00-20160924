@@ -1,0 +1,240 @@
+    1  sudo apt-get update 
+    2  sudo apt-get upgrade
+    3  sudo apt-get install libvirt-bin virtinst bridge-utils 
+    4  sudo apt-get install libvirt-bin virtinst bridge-utils qemu-kvm
+    5  sudo apt-get install libvirt-bin virtinst bridge-utils qemu-kvm vim-nox tree 
+    6  virsh
+    7  sudo apt-get install virt-manager 
+    8  sudo apt-get install virt-manager virt-viewer 
+    9  sudo apt-get install virtualbox
+   10  sudo apt-get install apache2
+   11  cd Documents/
+   12  ls
+   13  ls 'l
+   14  ls -l
+   15  ls -lh
+   16  sudo su -
+   17  ls -la 
+   18  apt-cache search p7zip-full
+   19  sudo apt-get install p7zip-full
+   20  cd Downloads/l
+   21  s
+   22  cd Downloads/
+   23  ls
+   24  sudo chmod 755 unetbootin-linux64-625.bin 
+   25  ./unetbootin-linux64-625.bin 
+   26  sudo ./unetbootin-linux64-625.bin 
+   27  sudo mount /dev/sda10 /mnt/
+   28  cd /mnt/
+   29  ls
+   30  mount 
+   31  mount  | grep sda10
+   32  cd .
+   33  ls
+   34  cd ..
+   35  ls
+   36  ls mnt/
+   37  cd mnt/
+   38  ls
+   39  cd etc/
+   40  ls
+   41  cd ..
+   42  .s
+   43  ls
+   44  find . -name "passwd"
+   45  cd ..
+   46  ls
+   47  chroot /mnt/ bash
+   48  sudo chroot /mnt/ bash
+   49  sudo umount /mnt 
+   50  exit 
+   51  sudo adduser user1
+   52  id user1
+   53  sudo usermod -a -G sudo user1
+   54  id user1
+   55  ifconfig 
+   56  ip -4 addr54 
+   57  ip -4 addr
+   58  netstat -ltunap
+   59  netstat -ltuap
+   60  sudo apt-get install openssh-server
+   61  netstat -ltuap
+   62  netstat -ltuanp
+   63  netstat -ltuanp | grep LISTEN
+   64  sudo route -n
+   65  ssh ubuntu@10.124.18.247
+   66  sudo fdisk -l
+   67  ls
+   68  id
+   69  su - user1
+   70  id
+   71  ls
+   72  pwd
+   73  sudo apt-get install git 
+   74  ls
+   75  pwd
+   76  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   77  sudo apt-get -f install
+   78  ip -4 addr 
+   79  ssh sysadmin@10.124.18.128
+   80  ifconfig 
+   81  dmesg 
+   82  dmesg | wc
+   83  ls
+   84  ls Music/
+   85  ls -l Music/ 
+   86  ls -ld Music/ 
+   87  ls -l Music/*
+   88  ls -ld Music/
+   89  netstat -ltuanp 
+   90  netstat -ltuanp | grep LISTEN
+   91  netstat -ltuap | grep LISTEN
+   92  netstat -ltuap | grep LISTEN > /tmp/servicios-$HOSTNAME
+   93  ls -l /tmp
+   94  cat /tmp/servicios-ubn-00 
+   95  netstat -ltuap | grep LISTEN > /tmp/servicios-$HOSTNAME 2> /tmp/servicios-$HOSTNAME.err
+   96  ls /tmp/
+   97  cat /tmp/servicios-ubn-00.err 
+   98  netstat -ltuap | grep LISTEN &> /tmp/servicios-$HOSTNAME.err
+   99  cat /tmp/servicios-ubn-00.err 
+  100  cp algo otro 2> /tmp/error
+  101  cat /tmp/error
+  102  ls
+  103  ls Music/ algo
+  104  ls Music/ algo 2> /tmp/error > /tmp/out
+  105  cat /tmp/error 
+  106  cat /tmp/out 
+  107  ls
+  108  touch Music/song.mpt
+  109  ls Music/
+  110  ls Music/ algo
+  111  ls Music/ algo > otro 2> error 
+  112  cat otro 
+  113  cat error 
+  114  ls Music/ scripts > otro 2> error 
+  115  cat error 
+  116  ls Music/ scripts > otro 2>> error 
+  117  cat error 
+  118  touch scripts 
+  119  ls Music/ scripts > otro 2>> error 
+  120  cat error 
+  121  cat otro 
+  122  ls -lh Music/ scripts > otro 2>> error 
+  123  cat otro 
+  124  ls -lh Music/ scripts >> otro 2>> error 
+  125  cat otro 
+  126  ls -lh Music/ scripts  2>> error 
+  127  ls -lh Music/ scripts casa  2>> error 
+  128  cat error 
+  129  ls -lh Music/ scripts casa  2> error 
+  130  cat error 
+  131  ls -lh Music/ scripts casa  2>> error 
+  132  cat error 
+  133  ls -lh Music/ scripts &>> error2
+  134  cat error2 
+  135  rm scripts 
+  136  ls -lh Music/ scripts &>> error2
+  137  cat error2 
+  138  history 
+  139  ssh uk@lolo.emate.ucr.ac.cr
+  140  scp uk@lolo.emate.ucr.ac.cr:dhcp.conf .
+  141  ssh  uk@lolo.emate.ucr.ac.cr ls 
+  142  scp uk@lolo.emate.ucr.ac.cr:dhcpd.conf .
+  143  ls
+  144  vim dhcpd.conf 
+  145  cat dhcpd.conf otro 
+  146  cat dhcpd.conf
+  147  cat dhcpd.conf | grep "#"
+  148  cat dhcpd.conf | grep -v "#"
+  149  cat dhcpd.conf | grep "#"
+  150  cat dhcpd.conf | grep -v "#"
+  151  cat dhcpd.conf | grep -v "#" | grep "10.48"
+  152  cat dhcpd.conf | grep -v "#"
+  153  cat dhcpd.conf | grep -v "#" | grep "fixed"
+  154  cat dhcpd.conf | grep -v "#" | grep "10.48"
+  155  cat dhcpd.conf | grep -v "#" | grep "fixed"
+  156  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163."
+  157  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $1}' 
+  158  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $2}' 
+  159  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $3}' 
+  160  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $4}' 
+  161  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $4}' | sort 
+  162  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk -F. '{print $4}' | sort 
+  163  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F. '{print $4}' | sort 
+  164  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F. '{print $4}' | sort > red-blanca
+  165  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk -F. '{print $4}' | sort > red-azul
+  166  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $4}' | sort > red-verde
+  167  ls
+  168  cp dhcpd.conf dhcpd.conf.orig
+  169  ls
+  170  vim dhcpd.conf
+  171  cp dhcpd.conf LXS2_emmanuel/misc/
+  172  cd LXS2_emmanuel/misc/
+  173  ls
+  174  ls -l 
+  175  ls
+  176  git status 
+  177  git add dhcpd.conf 
+  178  git status 
+  179  git commit -m "Agrego archivo de dhcp para practica de pipelining"
+  180  git config user.name "Emmanuel Vargas B"
+  181  #git config user.email ""
+  182  git log
+  183  #git config user.email "emmanuel.vargas@ucr.ac.cr"
+  184  git config user.email "emmanuel.vargas@ucr.ac.cr"
+  185  git commit -m "Agrego archivo de dhcp para practica de pipelining"
+  186  ls
+  187  git config --global  user.email "emmanuel.vargas@ucr.ac.cr"
+  188  git config --global  user.name "Emmanuel Vargas B"
+  189  cat ~/.gitconfig 
+  190  cd ..
+  191  ls
+  192  cd .git/
+  193  ls
+  194  cat config 
+  195  cd ..
+  196  ls
+  197  git log 
+  198  git push origin master
+  199  cd /tmp/
+  200  ls
+  201  cd -
+  202  git remote -v 
+  203  cd /tmp/
+  204  ls
+  205  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  206  git clone https://github.com/emvarg/LXS2_emmanuel.git OtroRepo
+  207  ls
+  208  cd OtroRepo/
+  209  ls
+  210  cd misc/
+  211  l;s
+  212  ls
+  213  rm dhcpd.conf 
+  214  cd ..
+  215  ls
+  216  cd .
+  217  ls
+  218  cd ..
+  219  ls
+  220  cd LXS2_emmanuel/
+  221  git pull origin master
+  222  ls misc/
+  223  cd ..
+  224  ls
+  225  cp LXS2_emmanuel/misc/dhcpd.conf OtroRepo/misc/
+  226  cd OtroRepo/
+  227  cd misc/
+  228  ls
+  229  cd 
+  230  ls
+  231  history 
+  232  ls
+  233  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $1}'
+  234  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}'
+  235  history 
+  236  history | grep sort 
+  237  history | grep git 
+  238  cd LXS2_emmanuel/
+  239  ls
+  240  history > history/history-$HOSTNAME-`date +%Y%m%d`
