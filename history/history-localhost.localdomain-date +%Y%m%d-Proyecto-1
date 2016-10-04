@@ -1,0 +1,271 @@
+    1  yum install git
+    2  ip -4 addr
+    3  shutdown -h now
+    4  yum install git
+    5  yum update
+    6  cd /
+    7  ls
+    8  cd home/proyecto-1
+    9  git clone https://github.com/marlonrc/LXS2_marlon.git
+   10  git config --global user.name "Marlon Rojas C"
+   11  git config --global user.mail "marocu.11902@gmail.com"
+   12  git remote add marlon https://github.com/marlonrc/LXS2_marlon.git
+   13  git status
+   14  cd LXS2_marlon/
+   15  ls
+   16  git status
+   17  git remote -v
+   18  git pull origin master
+   19  remove Proyectos
+   20  rmdir Proyectos
+   21  rmdir -r Proyectos
+   22  rmdir -R Proyectos
+   23  rmdir --R Proyectos
+   24  rm --R Proyectos
+   25  rm -R Proyectos
+   26  ls
+   27  git status
+   28  git push marlon master
+   29  git push origin master
+   30  ls
+   31  mkdir Proyectos/Proyecto-1
+   32  mkdir Proyectos/Proyecto-1/
+   33  mkdir Proyectos
+   34  cd Proyectos/
+   35  mkdir Proyecto-1
+   36  cd Proyecto-1/
+   37  pvdisplay > display-originales
+   38  lvdisplay >> display-originales
+   39  vgdisplay >> display-originales
+   40  git status
+   41  git commit -m "Se agregan los display originales"
+   42  git push origin master
+   43  git remote -v
+   44  git remote add marlon https://github.com/marlonrc/LXS2_marlon.git
+   45  git remote remove origin
+   46  git remote -v
+   47  cd ..
+   48  ls
+   49  git status
+   50  git commit -m "Avance en el proyecto"
+   51  git add Proyectos/Proyecto-1/display-originales 
+   52  git commit -m "Avance en el proyecto"
+   53  git config --global user.email marocu.11902@gmail.com
+   54  git commit --amen --reset-author
+   55  git commit -m "Se suben los display originales"
+   56  git push marlon master
+   57  cd Proyectos/Proyecto-1/
+   58  ls
+   59  cd ../..
+   60  rm -R Proyectos
+   61  ls
+   62  git status
+   63  git push marlon master
+   64  mkdir Proyectos
+   65  cd P
+   66  cd Proyectos/
+   67  mkdir Proyecto1
+   68  cd Proyecto1/
+   69  pvdisplay > pv-original
+   70  lvdisplay > lv-original
+   71  vgdisplay > vg-original
+   72  git status
+   73  cd ../..
+   74  ls
+   75  git status
+   76  git rm Proyectos/Proyecto-1/display-originales
+   77  git rm Proyectos/Proyecto-1/proyecto1
+   78  git Proyectos/Proyecto1/
+   79  git add Proyectos/Proyecto1/
+   80  git status
+   81  git commit -m "Se suben los display originales"
+   82  git push marlon master
+   83  ip -4 addr
+   84  shutdown -h now
+   85  pvdisplay
+   86  shutdown -h now
+   87  ip -4 addr
+   88  ifconfig
+   89  ipconfig
+   90  ip -4 addr
+   91  if eth0 down; 
+   92  if eth0 up
+   93  ifdown eth0
+   94  ifup eth0
+   95  ip -4 addr
+   96  ifup eth0
+   97  ifup -l
+   98  ifup -help
+   99  ifup --help
+  100  shutdown -h now
+  101  ip -4 addr
+  102  shutdown -r now
+  103  ifconfig
+  104  cd /
+  105  ifconfig -a
+  106  ip addr list
+  107  ipup enp0s8
+  108  ifup enp0s8
+  109  ip addr list
+  110  ip add
+  111  systemctl restart network.service
+  112  ip addr
+  113  shutdown -h now
+  114  ip addr
+  115  yum install openssh-server
+  116  ip addr
+  117  cd /
+  118  cd home/proyecto-1/LSX2_marlon
+  119  cd home/proyecto-1/
+  120  ls
+  121  cd LXS2_marlon/
+  122  ls
+  123  cd Proyectos/Proyecto1/
+  124  ls
+  125  touch lv-extendido
+  126  touch pv-extendido
+  127  touch vg-extendido
+  128  git status
+  129  git add lv-extendido, pv-extendido, vg-extendido
+  130  git add lv-extendido
+  131  git add pv-extendido
+  132  git add vg-extendido
+  133  git commit -m "Se agregan los archivos de los display extendidos"
+  134  git push marlon master
+  135  fdisk -l
+  136  shutdown -h now
+  137  fdisk /dev/sdb/
+  138  fdisk -l
+  139  fdisk /dev/sdb
+  140  shutdown -h now
+  141  git status
+  142  cd /home/proyecto-1/LXS2_marlon/
+  143  git status
+  144  cd ..
+  145  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  146  cd LXS2_emmanuel/
+  147  ls
+  148  cd history/
+  149  ls
+  150  git status
+  151  cp history-ubn000-20160910-Final-de-clase /home/proyecto-1/LXS2_marlon/history/
+  152  cp history-ubn000-20160924 /home/proyecto-1/LXS2_marlon/history/
+  153  cp history-ubn-00-20160924 /home/proyecto-1/LXS2_marlon/history/
+  154  cp history-ubn-00-20161001 /home/proyecto-1/LXS2_marlon/history/
+  155  cp history-ubn-00-20161001-final-de-clase /home/proyecto-1/LXS2_marlon/history/
+  156  cp history-ubn-00-20161001-root /home/proyecto-1/LXS2_marlon/history/
+  157  cd ../..
+  158  cd LXS2_marlon/
+  159  git status
+  160  git add history/
+  161  git status
+  162  git commit -m "Se agregan los últimos history del profesor"
+  163  git push marlon master
+  164  fdisk /dev/sdb/
+  165  cd /
+  166  ls
+  167  cd dev/
+  168  ls
+  169  fdisk /dev/sdb
+  170  l
+  171  fdisk -l
+  172  fdisk /dev/sdb
+  173  fdisk -l
+  174  fdisk /dev/mapper/centos-root
+  175  mount /dev/sdb1 /mnt/
+  176  mount | grep sdb1
+  177  ls
+  178  pvdisplay 
+  179  fdisk /dev/sdb
+  180  fdisk -l
+  181  mount /dev/sdb /mnt/
+  182  parted -l
+  183  mount -t ext4 /dev/sdb /mnt/
+  184  dmesg | tail
+  185  fdisk /dev/sdb
+  186  mount -t ext4 /dev/sdb1 /mnt/
+  187  pvcreate /dev/sdb1
+  188  pvdisplay 
+  189  cd ..
+  190  cd home/proyecto-1/LXS2_marlon/Proyectos/Proyecto1/
+  191  ls
+  192  pvdisplay > pv-extendido 
+  193  git status
+  194  git add pv-extendido 
+  195  git commit -m "Se agrega el nuevo volumen físico"
+  196  git push marlon master
+  197  vgextend centos /dev/sdb1
+  198  vgdisplay 
+  199  vgdisplay > vg-extendido 
+  200  git add vg-extendido 
+  201  git commit -m "Se extiende el grupo de volúmenes"
+  202  git push marlon master
+  203  mkdir Doc
+  204  mkdir Entregables
+  205  mv lv-extendido /home/proyecto-1/LXS2_marlon/Proyectos/Proyecto1/Entregables/
+  206  mv lv-original /home/proyecto-1/LXS2_marlon/Proyectos/Proyecto1/Entregables/
+  207  mv pv-original /home/proyecto-1/LXS2_marlon/Proyectos/Proyecto1/Entregables/
+  208  mv pv-extendido /home/proyecto-1/LXS2_marlon/Proyectos/Proyecto1/Entregables/
+  209  mv vg-extendido /home/proyecto-1/LXS2_marlon/Proyectos/Proyecto1/Entregables/
+  210  mv vg-original /home/proyecto-1/LXS2_marlon/Proyectos/Proyecto1/Entregables/
+  211  ls
+  212  cd Entregables/
+  213  ls
+  214  cd ..
+  215  git add Doc/
+  216  git add Entregables/
+  217  git commit -m "Reordenamiento de los archivos a entregar"
+  218  git push marlon master
+  219  lvextend -L+200m /dev/centos/swap
+  220  resize2fs /dev/centos/swap 
+  221  xfs_growfs /dev/centos/swap
+  222  df -h
+  223  cd /etc/
+  224  ls
+  225  cat fstab
+  226  lvdisplay 
+  227  xfs_growfs
+  228  lvextend -L+512m /dev/centos/root 
+  229  resize2fs -r /dev/centos/root 
+  230  xfs_growfs -r /dev/centos/root
+  231  mount -t xfs /dev/centos/root /mnt/
+  232  mount -t xfs /dev/centos/root /
+  233  xfs_growfs -r /dev/centos/root
+  234  cd /mnt
+  235  ls
+  236  mkdir xfs-proy
+  237  mount -t xfs /dev/centos/root /mnt/xfs-proy/
+  238  mount -t xfs /dev/mapper/centos-root /mnt/xfs-proy/
+  239  umount /dev/mapper/centos-root
+  240  umount /dev/mapper/centos-swap 
+  241  mount -t xfs /dev/mapper/centos-swap /mnt/xfs-proy/
+  242  mount -t xfs /dev/mapper/centos-swap /mnt/
+  243  df -h
+  244  mount -t xfs /dev/mapper/centos-swap /dev/mapper/centos-swap 
+  245  lvdisplay 
+  246  cd /home/proyecto-1/LXS2_mar
+  247  cd /home/proyecto-1/LXS2_marlon/Proyectos/Proyecto1/Entregables/
+  248  lvdisplay > lv-extendido 
+  249  git add lv-extendido 
+  250  cd ..
+  251  ls
+  252  cd ..
+  253  git add Proyecto1/
+  254  git commit -m "Se suben todos los display del Proyecto-1"
+  255  git push marlon master
+  256  cd Proyecto1/
+  257  cd Doc/
+  258  ls
+  259  cd ..
+  260  vgdisplay 
+  261  ip addr
+  262  shutdown -h now
+  263  cd /home/proyecto-1/LXS2_marlon/
+  264  git pull origin master
+  265  git pull marlon master
+  266  ls
+  267  cd Proyectos/Proyecto1/
+  268  ls
+  269  history
+  270  cd ../..
+  271  history > history/history-$HOSTNAME-'date +%Y%m%d'-Proyecto-1
