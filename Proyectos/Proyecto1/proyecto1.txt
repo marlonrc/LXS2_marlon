@@ -1,0 +1,28 @@
+fdisk -l //Averiguar el particionado en la máquina virtual
+
+fdisk /dev/sdb //Seleccionar el nuevo disco montado
+n //Dentro de fdisk se selecciona la opción 'n' para crear una nueva partición
+p //Una vez creada la partición se selecciona como primaria
+t //Una vez de vuelta en la raíz de fdisk se selecciona 't' para cambiar el ID de sistema
+8e //Se selecciona como un sistema Linux LVM
+w //Se escriben los cambios en la tabla y se sale de fdisk
+
+**Una vez creada la nueva partición se procede con la extensión de los volúmenes**
+
+pvcreate /dev/sdb1 //Se crea un nuevo volumen físico con el disco añadido
+pvdisplay > pv-extendido //Se agrega la salida del comando pvdisplay al archivo pv-extendido
+
+vgextend centos /dev/sdb1 //Se agrega el nuevo volumen físico al grupo de volúmenes 'centos'
+vgdisplay > vg-extendido //Se agrega la salida del comando vgdisplay al archivo vg-extendido
+
+lvextend -L+200M /dev/centos/swap //Se extiende en 200mb el volumen lógico swap
+lvextend -L+512M /dev/centos/root //Se extiende en 512mb el volumen lógico root
+resize2fs /dev/centos/swap //Se actualiza el tamaño del volumen lógico en la tabla
+resize2fs /dev/centos/root //Se actualiza el tamaño del volumen lógico en la tabla
+**En este paso aunque muestra un error el cual dice 'resize2fs: Bad magic number in super-block while trying to open /dev/centos/swap y /dev/centos/root
+Couldn't find valid filesystem superblock e investigando en CentOS ya no se utiliza el resize2fs sino el xfs_growfs, sin embargo no pude cambiar el tipo de archivo de sistema de los directorios y aún así el comando lvdisplay mostró los volúmenes extendidos**
+lvdisplay > lv-extendido //Se agrega la salida del comando lvdisplay al archivo lv-extendido
+
+git add Proyecto1/ //Se añade la carpeta Proyecto1/ donde se encuentran todos los display
+git commit -m "Se agregan los displays" //Se hace el commit indicando los cambios en el árbol de desarrollo
+git push origin master //Se suben los cambios al árbol en github.com
