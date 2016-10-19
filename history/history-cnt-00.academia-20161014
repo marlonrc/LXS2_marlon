@@ -1,0 +1,67 @@
+    1  ip -4 addr 
+    2  sudo yum update 
+    3  sudo yum install net-tools
+    4  sudo yum install openssh-server
+    5  netstat -ltunpa | grep 22
+    6  sudo yum install nmap 
+    7  sudo yum install nmap git vim
+    8  sudo yum install epel-release wget 
+    9  sudo yum install p7zip
+   10  history 
+   11  git clone https://github.com/emvarg/LXS2_emmanuel.git 
+   12  cd LXS2_emmanuel/
+   13  ls
+   14  man hostname
+   15  hostnamectl set-hostname cnt-00.academia
+   16  hostname
+   17  cat /etc/hostname 
+   18  history > history/history-$HOSTNAME-`date +%Y$m$d`
+   19  git status 
+   20  vim ~.gitconfig
+   21  git add history/history-cnt-00-2016 
+   22  git status 
+   23  git push origin master 
+   24  sudo yum install bash-completition
+   25  sudo yum install bash-completion
+   26  cd LXS2_emmanuel/
+   27  ls
+   28  cd 
+   29  ls -la 
+   30  cd LXS2_emmanuel/
+   31  ls
+   32  vim \~.gitconfig 
+   33  mv  \~.gitconfig gitconfig
+   34  mv gitconfig ~/.gitconfig
+   35  ls
+   36  ls -la 
+   37  cd ..
+   38  ls
+   39  ls -la 
+   40  cd LXS2_emmanuel/
+   41  ls
+   42  git log 
+   43  git status 
+   44  history > history/history-$HOSTNAME-`date +%Y$m$d`
+   45  git status 
+   46  cd history/
+   47  ls
+   48  git rm history-cnt-00-2016
+   49  rm history-cnt-00-2016
+   50  git status 
+   51  git add history-cnt-00.academia-2016
+   52  git status 
+   53  git rm history-cnt-00-2016
+   54  git status 
+   55  cat history-cnt-00.academia-2016 
+   56  vim history-cnt-00.academia-2016 
+   57  vim .bash_history 
+   58  git status 
+   59  cd LXS2_emmanuel/
+   60  ls
+   61  git status 
+   62  git add history/history-cnt-00.academia-2016
+   63  git status 
+   64  git commit -m "History inicial de en maquina de centos"
+   65  git push origin master 
+   66  history
+   67  history > history/history-$HOSTNAME-`date +%Y%m%d`

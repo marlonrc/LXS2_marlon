@@ -1,0 +1,18 @@
+    1  ip -4 addr 
+    2  sudo yum update 
+    3  sudo yum install net-tools
+    4  sudo yum install openssh-server
+    5  netstat -ltunpa | grep 22
+    6  sudo yum install nmap 
+    7  sudo yum install nmap git vim
+    8  sudo yum install epel-release wget 
+    9  sudo yum install p7zip
+   10  history 
+   11  git clone https://github.com/emvarg/LXS2_emmanuel.git 
+   12  cd LXS2_emmanuel/
+   13  ls
+   14  man hostname
+   15  hostnamectl set-hostname cnt-00.academia
+   16  hostname
+   17  cat /etc/hostname 
+   18  history > history/history-$HOSTNAME-`date +%Y%m%d`
