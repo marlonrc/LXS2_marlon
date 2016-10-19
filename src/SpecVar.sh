@@ -36,3 +36,19 @@ done
 echo "VAR1 es :$VAR1"
 
 
+# Notar que $* posee un "string" con los parámetros, no un arreglo como el
+# caso anterior.
+
+
+for PARAM in "$*"
+do
+	echo "El parametro $VAR1 es: $PARAM"
+	let "VAR1=$VAR1+1"
+done
+
+
+
+
+
+
+
