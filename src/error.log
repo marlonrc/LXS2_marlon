@@ -1,0 +1,5 @@
+
+gnuplot> plot "" using 1:3 with lines title "sensor1","" using 1:4 with linespoints title "sensor2"
+                 ^
+         line 0: No previous filename
+
