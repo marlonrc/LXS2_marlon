@@ -5,11 +5,13 @@
 FACTURAS=/home/lxs2/LXS2_marlon/src/Proyecto-de-Programacion/problema2
 FACTURAS_CSV=$FACTURAS/factura_csv
 FACTURAS_GRAF=$FACTURAS/factura_graf
+FACTURAS_COMP=$FACTURAS/graficos
 
 # Creamos las carpetas donde se guardaran los archivos
 
 mkdir $FACTURAS_CSV
 mkdir $FACTURAS_GRAF
+mkdir $FACTURAS_COMP
 
 # Creamos el ciclo para convertir los archivos .xls a .csv
 
@@ -32,4 +34,34 @@ do
 	cat $d |awk -F "\",\"" '{print $1 " " $2}' | sed '1,$ s/"//g' | sed '1d' | sed '1 s/Servicios/#Servicios/g' | head > $FACTURAS_GRAF/factura_graf-$f.dat
 	let f=f+1
 done 2> errorDatosGraf.log
+
+# Se crean los condicionales para evitar datos duplicados en los graficos finales
+
+if [ -a $FACTURAS_COMP/graf_luz.dat ]
+then
+	rm $FACTURAS_COMP/graf_luz.dat
+	echo "Archivo graf_luz.dat eliminado"
+fi 2> errorIfLuz.log
+
+if [ -a $FACTURAS_COMP/graf_agua.dat ]
+then
+	rm $FACTURAS_COMP/graf_agua.dat
+	echo "Archivo graf_agua.dat eliminado"
+fi 2> errorIfAgua.log
+
+# Creamos el ciclo con los datos a graficar en el consumo de luz
+
+for l in $FACTURAS_GRAF/factura_graf-5.dat $FACTURAS_GRAF/factura_graf-4.dat $FACTURAS_GRAF/factura_graf-3.dat
+do
+	sed '1d' $l >> $FACTURAS_COMP/graf_luz.dat
+	echo "Procesando archivo $l"
+done 2> errorGrafLuz.log
+
+# Creamos el ciclo con los datos a graficar en el consumo de agua
+
+for a in `find $FACTURAS_GRAF -name "*.dat"`
+do
+	sed '1d' $a >> $FACTURAS_COMP/graf_agua.dat
+	echo "Procesando archivo $a"
+done 2> errorGrafAgua.log
 
