@@ -1,0 +1,839 @@
+    1  sudo apt-get update 
+    2  sudo apt-get upgrade
+    3  sudo apt-get install libvirt-bin virtinst bridge-utils 
+    4  sudo apt-get install libvirt-bin virtinst bridge-utils qemu-kvm
+    5  sudo apt-get install libvirt-bin virtinst bridge-utils qemu-kvm vim-nox tree 
+    6  virsh
+    7  sudo apt-get install virt-manager 
+    8  sudo apt-get install virt-manager virt-viewer 
+    9  sudo apt-get install virtualbox
+   10  sudo apt-get install apache2
+   11  cd Documents/
+   12  ls
+   13  ls 'l
+   14  ls -l
+   15  ls -lh
+   16  sudo su -
+   17  ls -la 
+   18  apt-cache search p7zip-full
+   19  sudo apt-get install p7zip-full
+   20  cd Downloads/l
+   21  s
+   22  cd Downloads/
+   23  ls
+   24  sudo chmod 755 unetbootin-linux64-625.bin 
+   25  ./unetbootin-linux64-625.bin 
+   26  sudo ./unetbootin-linux64-625.bin 
+   27  sudo mount /dev/sda10 /mnt/
+   28  cd /mnt/
+   29  ls
+   30  mount 
+   31  mount  | grep sda10
+   32  cd .
+   33  ls
+   34  cd ..
+   35  ls
+   36  ls mnt/
+   37  cd mnt/
+   38  ls
+   39  cd etc/
+   40  ls
+   41  cd ..
+   42  .s
+   43  ls
+   44  find . -name "passwd"
+   45  cd ..
+   46  ls
+   47  chroot /mnt/ bash
+   48  sudo chroot /mnt/ bash
+   49  sudo umount /mnt 
+   50  exit 
+   51  sudo adduser user1
+   52  id user1
+   53  sudo usermod -a -G sudo user1
+   54  id user1
+   55  ifconfig 
+   56  ip -4 addr54 
+   57  ip -4 addr
+   58  netstat -ltunap
+   59  netstat -ltuap
+   60  sudo apt-get install openssh-server
+   61  netstat -ltuap
+   62  netstat -ltuanp
+   63  netstat -ltuanp | grep LISTEN
+   64  sudo route -n
+   65  ssh ubuntu@10.124.18.247
+   66  sudo fdisk -l
+   67  ls
+   68  id
+   69  su - user1
+   70  id
+   71  ls
+   72  pwd
+   73  sudo apt-get install git 
+   74  ls
+   75  pwd
+   76  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   77  sudo apt-get -f install
+   78  ip -4 addr 
+   79  ssh sysadmin@10.124.18.128
+   80  ifconfig 
+   81  dmesg 
+   82  dmesg | wc
+   83  ls
+   84  ls Music/
+   85  ls -l Music/ 
+   86  ls -ld Music/ 
+   87  ls -l Music/*
+   88  ls -ld Music/
+   89  netstat -ltuanp 
+   90  netstat -ltuanp | grep LISTEN
+   91  netstat -ltuap | grep LISTEN
+   92  netstat -ltuap | grep LISTEN > /tmp/servicios-$HOSTNAME
+   93  ls -l /tmp
+   94  cat /tmp/servicios-ubn-00 
+   95  netstat -ltuap | grep LISTEN > /tmp/servicios-$HOSTNAME 2> /tmp/servicios-$HOSTNAME.err
+   96  ls /tmp/
+   97  cat /tmp/servicios-ubn-00.err 
+   98  netstat -ltuap | grep LISTEN &> /tmp/servicios-$HOSTNAME.err
+   99  cat /tmp/servicios-ubn-00.err 
+  100  cp algo otro 2> /tmp/error
+  101  cat /tmp/error
+  102  ls
+  103  ls Music/ algo
+  104  ls Music/ algo 2> /tmp/error > /tmp/out
+  105  cat /tmp/error 
+  106  cat /tmp/out 
+  107  ls
+  108  touch Music/song.mpt
+  109  ls Music/
+  110  ls Music/ algo
+  111  ls Music/ algo > otro 2> error 
+  112  cat otro 
+  113  cat error 
+  114  ls Music/ scripts > otro 2> error 
+  115  cat error 
+  116  ls Music/ scripts > otro 2>> error 
+  117  cat error 
+  118  touch scripts 
+  119  ls Music/ scripts > otro 2>> error 
+  120  cat error 
+  121  cat otro 
+  122  ls -lh Music/ scripts > otro 2>> error 
+  123  cat otro 
+  124  ls -lh Music/ scripts >> otro 2>> error 
+  125  cat otro 
+  126  ls -lh Music/ scripts  2>> error 
+  127  ls -lh Music/ scripts casa  2>> error 
+  128  cat error 
+  129  ls -lh Music/ scripts casa  2> error 
+  130  cat error 
+  131  ls -lh Music/ scripts casa  2>> error 
+  132  cat error 
+  133  ls -lh Music/ scripts &>> error2
+  134  cat error2 
+  135  rm scripts 
+  136  ls -lh Music/ scripts &>> error2
+  137  cat error2 
+  138  history 
+  139  ssh uk@lolo.emate.ucr.ac.cr
+  140  scp uk@lolo.emate.ucr.ac.cr:dhcp.conf .
+  141  ssh  uk@lolo.emate.ucr.ac.cr ls 
+  142  scp uk@lolo.emate.ucr.ac.cr:dhcpd.conf .
+  143  ls
+  144  vim dhcpd.conf 
+  145  cat dhcpd.conf otro 
+  146  cat dhcpd.conf
+  147  cat dhcpd.conf | grep "#"
+  148  cat dhcpd.conf | grep -v "#"
+  149  cat dhcpd.conf | grep "#"
+  150  cat dhcpd.conf | grep -v "#"
+  151  cat dhcpd.conf | grep -v "#" | grep "10.48"
+  152  cat dhcpd.conf | grep -v "#"
+  153  cat dhcpd.conf | grep -v "#" | grep "fixed"
+  154  cat dhcpd.conf | grep -v "#" | grep "10.48"
+  155  cat dhcpd.conf | grep -v "#" | grep "fixed"
+  156  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163."
+  157  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $1}' 
+  158  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $2}' 
+  159  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $3}' 
+  160  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $4}' 
+  161  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $4}' | sort 
+  162  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk -F. '{print $4}' | sort 
+  163  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F. '{print $4}' | sort 
+  164  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F. '{print $4}' | sort > red-blanca
+  165  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk -F. '{print $4}' | sort > red-azul
+  166  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $4}' | sort > red-verde
+  167  ls
+  168  cp dhcpd.conf dhcpd.conf.orig
+  169  ls
+  170  vim dhcpd.conf
+  171  cp dhcpd.conf LXS2_emmanuel/misc/
+  172  cd LXS2_emmanuel/misc/
+  173  ls
+  174  ls -l 
+  175  ls
+  176  git status 
+  177  git add dhcpd.conf 
+  178  git status 
+  179  git commit -m "Agrego archivo de dhcp para practica de pipelining"
+  180  git config user.name "Emmanuel Vargas B"
+  181  #git config user.email ""
+  182  git log
+  183  #git config user.email "emmanuel.vargas@ucr.ac.cr"
+  184  git config user.email "emmanuel.vargas@ucr.ac.cr"
+  185  git commit -m "Agrego archivo de dhcp para practica de pipelining"
+  186  ls
+  187  git config --global  user.email "emmanuel.vargas@ucr.ac.cr"
+  188  git config --global  user.name "Emmanuel Vargas B"
+  189  cat ~/.gitconfig 
+  190  cd ..
+  191  ls
+  192  cd .git/
+  193  ls
+  194  cat config 
+  195  cd ..
+  196  ls
+  197  git log 
+  198  git push origin master
+  199  cd /tmp/
+  200  ls
+  201  cd -
+  202  git remote -v 
+  203  cd /tmp/
+  204  ls
+  205  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  206  git clone https://github.com/emvarg/LXS2_emmanuel.git OtroRepo
+  207  ls
+  208  cd OtroRepo/
+  209  ls
+  210  cd misc/
+  211  l;s
+  212  ls
+  213  rm dhcpd.conf 
+  214  cd ..
+  215  ls
+  216  cd .
+  217  ls
+  218  cd ..
+  219  ls
+  220  cd LXS2_emmanuel/
+  221  git pull origin master
+  222  ls misc/
+  223  cd ..
+  224  ls
+  225  cp LXS2_emmanuel/misc/dhcpd.conf OtroRepo/misc/
+  226  cd OtroRepo/
+  227  cd misc/
+  228  ls
+  229  cd 
+  230  ls
+  231  history 
+  232  ls
+  233  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $1}'
+  234  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}'
+  235  history 
+  236  history | grep sort 
+  237  history | grep git 
+  238  cd LXS2_emmanuel/
+  239  ls
+  240  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  241  ls history/
+  242  git add history/history-ubn-00-20160924 
+  243  git status 
+  244  date +%Y%m%d
+  245  date
+  246  ssh sysadmin@10.124.18.119
+  247  history
+  248  git status 
+  249  git add history/history-ubn-00-20160924 
+  250  git commit  -m "history de clase 3"
+  251  git push origin master 
+  252  sudo su - 
+  253  echo hola
+  254  echo '#!/bin/bash' >> /tmp/caso.sh
+  255  cat /tmp/caso.sh
+  256  echo 'echo hola otra vez' >> /tmp/caso.sh
+  257  echo 'last | head' >> /tmp/caso.sh
+  258  chmod +x /tmp/caso.sh
+  259  /tmp/caso.sh
+  260  echo hola
+  261  pgrep yes
+  262  kill -9 3488
+  263  pstree
+  264  pstree | less 
+  265  ls
+  266  yes
+  267  yes mamn
+  268  yes mamn &
+  269  yes mamn >  /dev/null &
+  270  jobs
+  271  ps aux | head
+  272  ps aux | tail
+  273  jobs
+  274  ps aux | grep yes
+  275  screendump 
+  276  sudo apt-get install screen
+  277  screen
+  278  scp uk@163.178.110.4:screenrc .
+  279  mv screenrc .screenrc 
+  280  screen
+  281  scree -list 
+  282  screen -list 
+  283  ls
+  284  sudo apt-get update 
+  285  ls
+  286  cowsay YO YO
+  287  sudo apt-get install cowsay
+  288  screen -r 
+  289  last 
+  290  ifconfig 
+  291  vim /etc/hosts
+  292  ping 127.0.0.1
+  293  jos
+  294  jobs
+  295  sudo fdisk -l
+  296  uuid /dev/mapper/vg0-data02
+  297  sudo apt-get install uuid
+  298  uuid /dev/mapper/vg0-data02
+  299  blkid /dev/mapper/vg0-data02
+  300  blkid /dev/mapper/vg0-data01 
+  301  jobs 
+  302  vim .bashrc 
+  303  source .bashrc
+  304  history 
+  305  ls
+  306  cd LXS2_emmanuel/
+  307  ls
+  308  git stauts 
+  309  git status
+  310  ls
+  311  ls history/
+  312  ls history/ -l
+  313  ls -l
+  314  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  315  ls -l history/
+  316  ls -lt history/
+  317  git status 
+  318  sudo su -
+  319  ls -l history/
+  320  sudo chown sysadmin:sysadmin history/history-ubn-00-20161001-root 
+  321  ls -l history/
+  322  git status 
+  323  history
+  324  vim /etc/fstab
+  325  ls
+  326  mkdir proyectos
+  327  cd proyectos/
+  328  ls
+  329  touch lvdisp-antes
+  330  touch vgdisp-antes
+  331  touch pvdisp-antes
+  332  touch [lvdisp,vgdisp,pvdisp]pvdisp-despues
+  333  ls
+  334  ls -l 
+  335  rm [lvdisp,vgdisp,pvdisp]pvdisp-despues
+  336  ls
+  337  cd ..
+  338  ls
+  339  git status 
+  340  git add proyectos/his
+  341  history
+  342  jobs 
+  343  pstree | less 
+  344  cd LXS2_emmanuel/
+  345  ls
+  346  cd src/
+  347  ls
+  348  vim for.sh
+  349  ls
+  350  cd ..
+  351  ls
+  352  cd misc/
+  353  ls
+  354  ls -l
+  355  cd ../src/
+  356  ls
+  357  ls ../misc/
+  358  ls
+  359  pwd
+  360  for i in `ls ../misc`; do ls $i ; done 
+  361  ls
+  362  ./for.sh 
+  363  ls ../misc/
+  364  ./for.sh 
+  365  ls -l ../misc/
+  366  ls
+  367  ls -l
+  368  bash for.sh 
+  369  ls -l
+  370  chmod 750 for.sh 
+  371  ls -l
+  372  cat for.sh 
+  373  ./for.sh 
+  374  ls
+  375  git status 
+  376  git add for.sh 
+  377  git commit  -m "Ejemplo del ciclo for"
+  378  git push origin master 
+  379  vim for.sh 
+  380  cd 
+  381  cd LXS2_emmanuel/
+  382  ls
+  383  ps -l
+  384  sudo renice --5 5777
+  385  sudo renice -5 5777
+  386  ps -l
+  387  sudo for i in 5790 5830 5832 5851; do renice -0 $i; done
+  388  for i in 5790 5830 5832 5851;do sudo renice -0 $i; done
+  389  ps -l
+  390  jobs
+  391  ps -l
+  392  ls
+  393  ls- la
+  394  ls -l 
+  395  yes HOLA > /dev/null ^
+  396  yes HOLA > /dev/null &
+  397  ps -l
+  398  nice -5 bash
+  399  jobs  -l
+  400  ps -l
+  401  nice -8 bash
+  402  yes man >  /dev/null &
+  403  jobs
+  404  vim /tmp/algo
+  405  jobs
+  406  history | tail
+  407  ps -l
+  408  ls
+  409  jobs
+  410  ps -l
+  411  ps aux
+  412  jobs
+  413  vim /tmp/otro
+  414  jobs
+  415  fg
+  416  jobs
+  417  fg %2
+  418  jobs
+  419  fg
+  420  jobs
+  421  ping 127.0.0.1
+  422  jobs
+  423  ping 127.0.0.1 > /dev/null &
+  424  jobs
+  425  pgrep ping 
+  426  kill -15 4516
+  427  jobs
+  428  ping 127.0.0.1 > /dev/null
+  429  jons
+  430  jobs
+  431  bg %4
+  432  jobs 
+  433  fg %4
+  434  ping 127.0.0.1 > /dev/null
+  435  jobs 
+  436  bg %4
+  437  jobs
+  438  ps aux | less 
+  439  ps -l
+  440  ps u 
+  441  ps -u apache12
+  442  ps -u apache2
+  443  ps u apache2
+  444  ps aux | grep apache
+  445  ps -u apache2
+  446  ps -u www-data
+  447  vim /etc/apache2/apache2.conf 
+  448  vim /etc/apache2/envvars 
+  449  ps -u www-data
+  450  ps aux | grep apache
+  451  kill -s SIGTERM 3200
+  452  sudo kill -s SIGTERM 3200
+  453  jobs 
+  454  ps -l
+  455  ps aux | less 
+  456  top
+  457  ls
+  458  nice -10 bash
+  459  cd LXS2_emmanuel/
+  460  ls
+  461  history > history/history-$HOSTNAME-`date +%Y%m%d`-final-de-clase
+  462  git status 
+  463  git add history/
+  464  git log 
+  465  gitk
+  466  git stauts 
+  467  git status 
+  468  git add src/
+  469  git status 
+  470  git commit -m "registros de la clase de hoy"
+  471  git push origin master 
+  472  cp algo otro
+  473  echo $?
+  474  ls
+  475  echo $?
+  476  ls
+  477  cd /tmp/
+  478  ls
+  479  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  480  ls
+  481  cd LXS2_emmanuel/
+  482  ls
+  483  git log 
+  484  git pull origin master 
+  485  git status 
+  486  vim ../.gitignore 
+  487  git status 
+  488  ls ..
+  489  ls .. -a
+  490  git add parametros_posicionales.sh 
+  491  git commit -m "Inicio del script de parametros posicionales\"
+  492  git commit -m "Inicio del script de parametros posicionales"
+  493  gitk
+  494  git status
+  495  git add ../.gitignore 
+  496  git commit -m "Nuevo gitignore para *.err"
+  497  git push origin master 
+  498  cd /tmp/LXS2_emmanuel/
+  499  ls
+  500  git status 
+  501  cd /tmp/
+  502  ls
+  503  find LXS2_emmanuel/
+  504  find LXS2_emmanuel/ | grep ".git"
+  505  find LXS2_emmanuel/ | grep -v ".git"
+  506  find LXS2_emmanuel/ | grep -v ".git" > profe
+  507  ls -l
+  508  cat profe 
+  509  cat local 
+  510  diff local profe 
+  511  vimdiff local profe 
+  512  history 
+  513  echo "# ^^ El"
+  514  echo "# ^^ Ejemplo de diferencias entre repositorios locales"
+  515  history 
+  516  # ^^ Ejemplo de diferencias entre repositorios locales
+  517  history 
+  518  history | grep "#"
+  519  history | less 
+  520  ssh uk@163.178.110.7
+  521  scp uk@163.178.110.7:~/Dropbox/EMATE-TIC/Documentacion/Documentacion.tar.gz .
+  522  scp uk@163.178.110.7:Dropbox/EMATE-TIC/Documentacion/Documentacion.tar.gz .
+  523  ssh uk@163.178.110.7
+  524  scp uk@163.178.110.7:Documentacion.tar.gz .
+  525  tar -xzf Document
+  526  tar -xzf Documentacion.tar.gz 
+  527  cd Document
+  528  l
+  529  cd Documentacion/
+  530  ls
+  531  nautilus . &
+  532  cd 
+  533  cd LXS2_emmanuel/
+  534  ls
+  535  ls -la
+  536  git log 
+  537  ls
+  538  cd Sr
+  539  cd src/
+  540  ls
+  541  git log 
+  542  cd 
+  543  pwd
+  544  git log 
+  545  cd LXS2_emmanuel/
+  546  ls
+  547  lvdisplay 
+  548  ls
+  549  git stauts 
+  550  git status 
+  551  gitk
+  552  sudo apt-get install gitk
+  553  gitk
+  554  ls
+  555  cd src/
+  556  ls
+  557  vim parametros_posicionales.sh
+  558  pwd
+  559  ls ../
+  560  ls
+  561  fg
+  562  ls -l
+  563  bash parametros_posicionales.sh 
+  564  ls -l
+  565  cat parametros_posicionales.sh.err 
+  566  fg
+  567  history 
+  568  ls
+  569  touch algo
+  570  git status 
+  571  cd 
+  572  find LXS2_emmanuel/ | grep -v ".git"
+  573  find LXS2_emmanuel/ | grep -v ".git" > /tmp/local
+  574  ./LXS2_emmanuel/src/parametros_posicionales.sh 
+  575  pwd
+  576  ./LXS2_emmanuel/src/parametros_posicionales.sh 
+  577  ls
+  578  ./parametros_posicionales.sh 
+  579  cat parametros_posicionales.sh.err 
+  580  git status 
+  581  rm algo 
+  582  ls
+  583  ls ../proyectos/
+  584  rm -r ../proyectos/
+  585  ls
+  586  ls -l ../misc/
+  587  rm ../misc/bashrc 
+  588  rm ../misc/dhcpd.conf
+  589  ls -a ../misc/
+  590  rm ../misc/*
+  591  git status 
+  592  git checkout -- ../misc/
+  593  git rm ../misc/
+  594  git rm -r  ../misc/*
+  595  ls ..
+  596  mkdir ../misc
+  597  touch ../misc/.gitignore
+  598  git status 
+  599  git add parametros_posicionales.sh 
+  600  git add ../misc/
+  601  git status 
+  602  git commit -m "Uso de variable ERRORLOG"
+  603  git push origin master 
+  604  gitk
+  605  df -lh
+  606  ls
+  607  ./parametros_posicionales.sh 
+  608  ls
+  609  ./parametros_posicionales.sh 
+  610  ls
+  611  cat parametros_posicionales.sh.err
+  612  git status 
+  613  git add parametros_posicionales.sh 
+  614  git commit -m "caso de if anidados"
+  615  git push origin master 
+  616  ./parametros_posicionales.sh 
+  617  touch /tmp/archivo1.txt
+  618  sudo chown www-data:www-data /tmp/archivo1.txt
+  619  ls -l /tmp/archivo1.txt
+  620  rm /tmp/archivo1.txt
+  621  echo $?
+  622  ls
+  623  ./parametros_posicionales.sh 
+  624  ls /tmp/
+  625  ./parametros_posicionales.sh 
+  626  man rm
+  627  ./parametros_posicionales.sh 
+  628  ls
+  629  bash parametros_posicionales_avanzados.sh algo
+  630  ls
+  631  ls -l
+  632  rm output.err 
+  633  rm output.err archivo1.txt.bck 
+  634  ls
+  635  rm parametros_posicionales.sh.err
+  636  ls
+  637  git status 
+  638  ls -l 
+  639  bash parametros_posicionales_avanzados.sh
+  640  ls
+  641  ls -l
+  642  touch file2
+  643  touch file3
+  644  touch file1
+  645  ls
+  646  bash parametros_posicionales_avanzados.sh file1 file2  file3 
+  647  ls -l
+  648  rm file
+  649  git checkout -- file
+  650  rm file1*
+  651  ls- l
+  652  ls -l 
+  653  bash parametros_posicionales_avanzados.sh file1 file2  file3 
+  654  ls -l
+  655  rm file2*
+  656  rm file3 
+  657  ls -l
+  658  bash parametros_posicionales_avanzados.sh file1 file2  file3 
+  659  git status 
+  660  git add SpecVar.sh 
+  661  git commit
+  662  sudo update-alternatives --config editor
+  663  git commit
+  664  git push origin master 
+  665  git log 
+  666  ls
+  667  vim SpecVar.sh 
+  668  ls -la 
+  669  ls
+  670  bash SpecVar.sh 
+  671  bash SpecVar.sh casa perro gato
+  672  ls
+  673  cd ..
+  674  ls
+  675  cd /media/sysadmin/uk/Freelance/Academia/
+  676  ls
+  677  cd LOGS/
+  678  ls
+  679  cd f2b-lolo/
+  680  ls
+  681  less fail2ban.log
+  682  cd LXS2_emmanuel/src/
+  683  ls
+  684  git status 
+  685  rm 3
+  686  git add SpecVar.sh 
+  687  git commit "Imprimo los parametros del scritp"
+  688  git commit -m "Imprimo los parametros del scritp"
+  689  git push origin master 
+  690  ls
+  691  cd ..
+  692  ls
+  693  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  694  ls -l history/
+  695  ls -lt history/
+  696  git status 
+  697  git add history/history-ubn-00-20161008 
+  698  git commit -m "respaldo del history de hoy"
+  699  git push origin master 
+  700  history
+  701  vim parametros_posicionales.sh
+  702  chmod 750 parametros_posicionales.sh
+  703  ls -l
+  704  ls
+  705  vim parametros_posicionales.sh
+  706  git status 
+  707  git diff parametros_posicionales.sh 
+  708  git add parametros_posicionales.sh
+  709  git commit -m "agrego -f a la hora de eliminar /tmp/archivo1.txt "
+  710  git push origin master 
+  711  ls
+  712  vim parametros_posicionales_avanzados.sh
+  713  git status 
+  714  git add parametros_posicionales_avanzados.sh 
+  715  git commit -m "paso de parametros avanzados"
+  716  git push origin master 
+  717  ls
+  718  ls -l
+  719  vim for.sh 
+  720  vim for2.sh 
+  721  ls
+  722  vim SpecVar.sh
+  723  chmod +x SpecVar.sh 
+  724  ls -l
+  725  ./SpecVar.sh 
+  726  ./SpecVar.sh asd  asd  asd
+  727  vim SpecVar.sh 
+  728  sudo apt-get install libvirt-bin virt-manager qemu-kvm virt-viewer 
+  729  id
+  730  apt-get install qemu-system
+  731  sudo apt-get install qemu-system
+  732  cat /proc/cpuinfo | grep vmx
+  733  free -lh 
+  734  ls -l /var/www/
+  735  ls -l /var/www/html/
+  736  ls -l /var/www/html/ -h
+  737  cd Document
+  738  ls
+  739  cd Documents/
+  740  ls
+  741  ls -la
+  742  ls -lh
+  743  ssh 192.168.122.250
+  744  ssh-copy-id 192.168.122.250
+  745  ssh-keygen -t rsa 
+  746  ssh-copy-id 192.168.122.250
+  747  cd 
+  748  ls
+  749  cat .gitconfig 
+  750  ssh 192.168.122.250
+  751  ssh 192.168.122.243
+  752  ssh-copy-id 192.168.122.243
+  753  ssh 192.168.122.243
+  754  cd Downloads/
+  755  ls
+  756  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+  757  cd 
+  758  cd LXS2_emmanuel/
+  759  ls
+  760  ls -l
+  761  git pull  origin master 
+  762  ls
+  763  tree
+  764  sudo su -
+  765  virsh
+  766  virsh 
+  767  virsh
+  768  ls
+  769  sudo su -
+  770  vim default.xml 
+  771  virsh 
+  772  mv default.xml private-network.xml
+  773  virsh 
+  774  cd LXS2_emmanuel/
+  775  ls
+  776  mkdir configs
+  777  cd configs/
+  778  ls
+  779  mkdir networking
+  780  cd networking/
+  781  ls
+  782  cd ..
+  783  rm -r configs/
+  784  git status 
+  785  wget http://10.124.18.117/cnt-00.xml
+  786  sudo apt-get update ; sudo apt-get -y upgrade
+  787  cd LXS2_emmanuel/
+  788  ls
+  789  cd misc/
+  790  ls
+  791  cp ~/.gitconfig gitconfig
+  792  ls
+  793  vim gitconfig 
+  794  git add gitconfig
+  795  git status 
+  796  git commit -m "Config para git"
+  797  git push origin master 
+  798  ls
+  799  cd ..
+  800  ls
+  801  mkdir file
+  802  mkdir file/folder
+  803  mkdir file/folder2
+  804  touch file/folder/doc
+  805  touch file/folder2/doc
+  806  tree
+  807  git add file/
+  808  git status 
+  809  git commit -m "ejemplo de folders"
+  810  mkdir bla
+  811  git mv file/ bla/
+  812  git status 
+  813  git commit -m "ejemplo de rename"
+  814  git rm -r bla/
+  815  git status 
+  816  git commit -m "fin del ejemplo del folders"
+  817  gitk
+  818  sudo apt-get install libvirt-bin qemu-system qemu-kvm virt-manager 
+  819  ip -4 addr 
+  820  ssh 10.124.18.127
+  821  ssh 10.124.18.190
+  822  ssh 10.124.18.157
+  823  lsb_release -a 
+  824  screen -list 
+  825  screen
+  826  ip -4 addr4 
+  827  ip -4 addr
+  828  ssh 10.124.18.190
+  829  screen -list 
+  830  ssh 10.124.18.185
+  831  sudo su -
+  832  sudo usermod  -a -G libvirtd sysadmin
+  833  id
+  834  wget http://10.124.18.117/cnt-00.xml
+  835  screen -list
+  836  screen -list
+  837  cd LXS2_emmanuel/
+  838  ls
+  839  history > history/history-$HOSTNAME-`date +%Y%m%d`-inicio-de-clase
