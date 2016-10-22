@@ -66,22 +66,13 @@ do
 	echo "Procesando archivo $a"
 done 2> errorGrafAgua.log
 
-FMT_BEGIN='"Agua"'
-FMT_END='"Asociación"'
-FMT_X_SHOW="Agua"
-LUZ=$FACTURAS_COMP/graf_luz.dat
-AGUA=$FACTURAS_COMP/graf_agua.dat
-
 graficar()
 {
 	gnuplot << EOF 2> errorGrafLuz.log
-	set xdata string
-	set stringfmt "Luz"
-#	set xrange ["$FMT_BEGIN" : "$FMT_END"]
-	set format x "$FMT_X_SHOW"
+	set xrange ["Agua" : "Asociación"]
 	set terminal png
-	set output 'figLuz.png'
-	plot "$LUZ" using 1:2 with lines title "Luz"
+	set output 'figLuz.png
+	plot "$FACTURAS_COMP/graf_luz" using 1:2 with line title "Luz"
 EOF
 
 }
