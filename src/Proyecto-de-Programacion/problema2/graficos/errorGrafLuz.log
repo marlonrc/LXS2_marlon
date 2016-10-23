@@ -1,3 +1,8 @@
-         line 0: warning: Skipping unreadable file "/home/lxs2/LXS2_marlon/src/Proyecto-de-Programacion/problema2/graficos/graf_luz"
-         line 0: Can't plot with an empty x range!
+         line 0: undefined function: labels
+
+         line 0: warning: Skipping data file with no valid points
+
+gnuplot> plot "/home/lxs2/LXS2_marlon/src/Proyecto-de-Programacion/problema2/graficos/graf_luz.dat" using 1:2 with lines
+                                                                                                                        ^
+         line 0: x range is invalid
 

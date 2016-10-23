@@ -69,10 +69,10 @@ done 2> errorGrafAgua.log
 graficar()
 {
 	gnuplot << EOF 2> errorGrafLuz.log
-	set xrange ["Agua" : "Asociación"]
+	set xtic labels ('Luz')
 	set terminal png
 	set output 'figLuz.png
-	plot "$FACTURAS_COMP/graf_luz" using 1:2 with line title "Luz"
+	plot "$FACTURAS_COMP/graf_luz.dat" using 1:2 with lines
 EOF
 
 }
